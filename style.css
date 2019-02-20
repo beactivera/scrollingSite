@@ -38,21 +38,25 @@ section {
   overflow-x: hidden;
 }
 
-h2.sticky{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: yellow;
-  padding: 50px;
-  font-size: 20px;
-}
-
 #section1 {
   background-color: lightgreen;
 }
 
+.video1{
+  position: absolute;
+  top:10vh;
+  right:20vw;
+}
+
+
 #section2 {
   background-color: lightsalmon;
+}
+
+.video2{
+  position: absolute;
+  top:110vh;
+  right:20vw;
 }
 
 #section3 {
@@ -61,6 +65,12 @@ h2.sticky{
 
 #section4 {
   background-color: lightseagreen;
+}
+
+.video4{
+  position: absolute;
+  top:310vh;
+  right:20vw;
 }
 
 #socialMediaLinks{
