@@ -1,0 +1,121 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+header {
+  position: fixed;
+  top:20vh;
+  right: 0;
+}
+
+#menu ul{
+    display:block;
+    text-align: right;
+}
+
+#menu li{
+  margin-top: 20px; 
+  padding: 20px;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+
+section {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+h2.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+#section1 {
+  background-color: lightgreen;
+}
+
+#section2 {
+  background-color: lightsalmon;
+}
+
+#section3 {
+  background-color: lightslategray;
+}
+
+#section4 {
+  background-color: lightseagreen;
+}
+
+#socialMediaLinks{
+    position:fixed;
+    top: 15vh;
+    left:1vw;
+    width: 7vw;
+    height: 40vh;
+}
+
+.link-facebook{
+    position:absolute;
+    width: 7vw;
+    height: 7vh;
+    background-image: url('/media-files/facebook.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link-instagram{
+    position: absolute;
+    top: 7vh;
+    width: 7vw;
+    height: 7vh;
+    background-image: url('/media-files/instagram.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link-instagram{
+    position: absolute;
+    top: 8vh;
+    width: 7vw;
+    height: 7vh;
+    background-image: url('/media-files/instagram.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link-pinterest{
+    position: absolute;
+    top: 16vh;
+    width: 7vw;
+    height: 7vh;
+    background-image: url('/media-files/pinterest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link-linkedin{
+    position: absolute;
+    top: 24vh;
+    width: 7vw;
+    height: 7vh;
+    background-image: url('/media-files/linkedin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
